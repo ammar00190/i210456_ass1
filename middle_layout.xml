@@ -1,0 +1,10 @@
+<!-- middle_layout.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whiteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_below="@id/header_layout"
+    android:layout_above="@+id/bottomNavigationBar"
+    android:background="#FFFFFF">
+    <!-- Add any views or widgets you want in the middle layout here -->
+</FrameLayout>

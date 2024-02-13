@@ -1,0 +1,42 @@
+<!-- bottom_navigation_bar_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNavigationBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#009688"
+    android:layout_alignParentBottom="true">
+
+    <ImageView
+        android:id="@+id/navIcon1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon1"
+        android:padding="12dp"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:id="@+id/navIcon2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon2"
+        android:padding="12dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/navIcon3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon3"
+        android:padding="12dp"
+        android:layout_marginLeft="60dp" />
+    <ImageView
+        android:id="@+id/navIcon4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon4"
+        android:padding="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
